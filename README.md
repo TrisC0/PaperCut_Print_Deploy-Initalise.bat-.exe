@@ -1,7 +1,7 @@
 # pc-print-deploy-initalise.exe
-Change the reg value from initalise.bat to initalise.exe for PaperCut Print Deploy. 
+This is to address known issue PD-1054 - initalise.bat is blocked from running,
+convert to .exe?
 
+1) Run this PowerShell script will rename reg value from initalise.bat to initalise.exe for PaperCut Print Deploy clients.
 
-Run this PowerShell script on all affected client machines to rename the value in regedit from initialise.bat to initialise.exe 
- 
-Once the value has been updated they will need to restart the client machines or wait for the next restart before testing. 
+2) Once the value has been updated they will need to restart the client machines or wait for the next restart before testing. 
